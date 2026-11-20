@@ -1,0 +1,61 @@
+{
+  "EP": {
+    "Title": "Encounter Planner",
+    "Open": "Encounter Planner",
+    "GMOnly": "Encounter Planner is for the GM only.",
+    "Party": {
+      "Summary": "Party: {name} — {count} PCs, levels {levels}",
+      "PlayerCharacters": "player characters",
+      "Thresholds": "2024 thresholds",
+      "PC": "PC", "Level": "Lvl", "HP": "HP", "AC": "AC",
+      "Damage": "Damage/round", "DamageHint": "Average damage per round if every attack hits",
+      "Attack": "Attack", "Healing": "Healing", "HealingHint": "HP of magical healing over the day (Lay on Hands, spells)",
+      "HitDice": "Hit dice",
+      "EstimateHint": "Estimate: {value}. Clear the field to go back to the estimate.",
+      "Efficiency": "Party efficiency", "Lethality": "Monster lethality",
+      "FullHP": "start at full HP (beginning of the day), otherwise current HP",
+      "None": "No characters in the party."
+    },
+    "Difficulty": { "none": "—", "low": "Low", "moderate": "Moderate", "high": "High", "beyond": "Beyond High" },
+    "Risk": { "green": "easy", "yellow": "costly", "red": "deaths likely", "dead": "they fall here", "stalemate": "stalemate", "notReached": "they don't get this far", "empty": "no monsters" },
+    "Result": "{rounds} rounds · −{damage} HP · after the fight {hp}/{max}",
+    "HitDiceUsed": "{n} hit dice", "HealingUsed": "healing {n}",
+    "Verdict": {
+      "Fall": "💀 The party falls in encounter {n} — <b>{name}</b>.",
+      "Survive": "They reach the end with <b>{hp}/{max} HP</b> ({pct}%), {healing} HP of healing and {hd} hit dice left.",
+      "Xp": "XP for the day {xp} · 2014 DMG reference for a full adventuring day: {budget} XP"
+    },
+    "Encounter": {
+      "Default": "Encounter {n}", "Copy": "{name} (copy)",
+      "Up": "Up", "Down": "Down", "Duplicate": "Duplicate", "Delete": "Delete",
+      "Drop": "Drop a monster here (from a compendium or the Actors sidebar) or search on the right.",
+      "ShortRest": "short rest afterwards",
+      "Repeat": "How many in a row can they take?",
+      "RepeatResult": "no rests: <b>{a}</b> · short rest after each: <b>{b}</b>",
+      "Create": "Create encounter", "Update": "Update encounter",
+      "CreateHint": "Create (or update) a dnd5e Encounter actor in the Encounters folder",
+      "OpenSheet": "Open the encounter sheet",
+      "Place": "Place", "PlaceHint": "Place the monsters on the current scene (and in the combat tracker, per the dnd5e setting)",
+      "Edit": "Portrait and token: opens the world copy (Encounters › Monsters)",
+      "Remove": "Remove",
+      "New": "New encounter", "Reset": "Start the day over",
+      "Ready": "Encounter «{name}» ready: its monsters are in Encounters › Monsters, you can change their portraits and tokens.",
+      "OpenScene": "Open a scene first.",
+      "OnlyActors": "Only actors can be added."
+    },
+    "Search": {
+      "Placeholder": "Search a monster…", "CR": "CR", "AddTo": "Adding to: <b>{name}</b> (click an encounter to pick it)",
+      "NoResults": "No monsters found.", "Hint": "Type a name or pick a CR.", "World": "World"
+    },
+    "Folders": { "Encounters": "Encounters", "Monsters": "Monsters" },
+    "Sources": {
+      "Name": "Monster compendiums", "Label": "Choose compendiums",
+      "Hint": "Where monsters come from, for search and encounters. Monsters dropped from other compendiums are matched to these by name. With none selected, the dnd5e SRD monsters for the world's rules are used.",
+      "Auto": "Automatic: {pack}", "Save": "Save",
+      "Missing": "Encounter Planner: compendium «{pack}» not found.",
+      "Mapped": "«{from}» → «{to}» from {pack}.",
+      "NotFound": "«{name}» is not in the chosen compendiums: using it from {pack}."
+    },
+    "Short": { "CR": "CR", "HP": "HP", "AC": "AC" }
+  }
+}

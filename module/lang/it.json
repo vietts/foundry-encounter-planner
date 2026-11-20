@@ -1,0 +1,61 @@
+{
+  "EP": {
+    "Title": "Calcolo incontri",
+    "Open": "Calcolo incontri",
+    "GMOnly": "Calcolo incontri è solo per il GM.",
+    "Party": {
+      "Summary": "Gruppo: {name} — {count} PG, livelli {levels}",
+      "PlayerCharacters": "personaggi dei giocatori",
+      "Thresholds": "soglie 2024",
+      "PC": "PG", "Level": "Liv", "HP": "PF", "AC": "CA",
+      "Damage": "Danni/round", "DamageHint": "Danni medi per round se tutto va a segno",
+      "Attack": "Attacco", "Healing": "Cure", "HealingHint": "PF di cure magiche nella giornata (Imposizione delle mani, incantesimi)",
+      "HitDice": "Dadi vita",
+      "EstimateHint": "Stima: {value}. Svuota il campo per tornare alla stima.",
+      "Efficiency": "Efficacia del gruppo", "Lethality": "Letalità dei mostri",
+      "FullHP": "parti a PF pieni (inizio giornata), altrimenti PF attuali",
+      "None": "Nessun personaggio nel gruppo."
+    },
+    "Difficulty": { "none": "—", "low": "Bassa", "moderate": "Moderata", "high": "Alta", "beyond": "Oltre Alta" },
+    "Risk": { "green": "tranquillo", "yellow": "costoso", "red": "rischio morti", "dead": "cadono qui", "stalemate": "stallo", "notReached": "non arrivano fin qui", "empty": "nessun mostro" },
+    "Result": "{rounds} round · −{damage} PF · a fine scontro {hp}/{max}",
+    "HitDiceUsed": "{n} dadi vita", "HealingUsed": "cure {n}",
+    "Verdict": {
+      "Fall": "💀 Il gruppo cade all'incontro {n} — <b>{name}</b>.",
+      "Survive": "Arrivano in fondo con <b>{hp}/{max} PF</b> ({pct}%), cure rimaste {healing} PF, dadi vita rimasti {hd}.",
+      "Xp": "XP della giornata {xp} · riferimento DMG 2014 per una giornata intera: {budget} XP"
+    },
+    "Encounter": {
+      "Default": "Incontro {n}", "Copy": "{name} (copia)",
+      "Up": "Su", "Down": "Giù", "Duplicate": "Duplica", "Delete": "Elimina",
+      "Drop": "Trascina qui un mostro (dal compendio o dalla barra Attori) o cercalo a destra.",
+      "ShortRest": "riposo breve dopo",
+      "Repeat": "Quante volte di fila lo reggono?",
+      "RepeatResult": "senza riposi: <b>{a}</b> · con riposo breve dopo ognuno: <b>{b}</b>",
+      "Create": "Crea incontro", "Update": "Aggiorna incontro",
+      "CreateHint": "Crea (o aggiorna) l'attore Incontro di dnd5e nella cartella Incontri",
+      "OpenSheet": "Apri la scheda dell'incontro",
+      "Place": "In scena", "PlaceHint": "Metti i mostri nella scena aperta (e nel combat tracker, come da impostazioni di dnd5e)",
+      "Edit": "Ritratto e token: apre la copia nel mondo (Incontri › Mostri)",
+      "Remove": "Togli",
+      "New": "Nuovo incontro", "Reset": "Ricomincia la giornata",
+      "Ready": "Incontro «{name}» pronto: i mostri sono in Incontri › Mostri, puoi cambiarne ritratto e token.",
+      "OpenScene": "Apri prima una scena.",
+      "OnlyActors": "Si possono aggiungere solo attori."
+    },
+    "Search": {
+      "Placeholder": "Cerca un mostro…", "CR": "GS", "AddTo": "Si aggiunge a: <b>{name}</b> (clic su un incontro per sceglierlo)",
+      "NoResults": "Nessun mostro trovato.", "Hint": "Scrivi un nome o scegli un GS.", "World": "Mondo"
+    },
+    "Folders": { "Encounters": "Incontri", "Monsters": "Mostri" },
+    "Sources": {
+      "Name": "Compendi dei mostri", "Label": "Scegli i compendi",
+      "Hint": "Da dove vengono i mostri, per la ricerca e per gli incontri. Quelli trascinati da altri compendi vengono ricondotti a questi per nome. Se non ne scegli nessuno si usano i mostri SRD di dnd5e delle regole del mondo.",
+      "Auto": "Automatico: {pack}", "Save": "Salva",
+      "Missing": "Calcolo incontri: compendio «{pack}» non trovato.",
+      "Mapped": "«{from}» → «{to}» da {pack}.",
+      "NotFound": "«{name}» non è nei compendi scelti: lo uso da {pack}."
+    },
+    "Short": { "CR": "GS", "HP": "PF", "AC": "CA" }
+  }
+}

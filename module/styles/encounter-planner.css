@@ -1,0 +1,56 @@
+.dnd5e-encounter-planner .window-content { display: flex; flex-direction: column; gap: 8px; padding: 8px; overflow: hidden; font-size: 13px; }
+.dnd5e-encounter-planner button { line-height: 1.2; }
+.dnd5e-encounter-planner img { width: 28px; height: 28px; object-fit: contain; border: none; border-radius: 4px; flex: 0 0 auto; }
+.dnd5e-encounter-planner .ep-top summary { cursor: pointer; font-weight: 600; padding: 4px 0; }
+.dnd5e-encounter-planner table { width: 100%; border-collapse: collapse; margin: 4px 0; }
+.dnd5e-encounter-planner th, .dnd5e-encounter-planner td { padding: 2px 4px; text-align: center; }
+.dnd5e-encounter-planner td.name { text-align: left; display: flex; align-items: center; gap: 6px; }
+.dnd5e-encounter-planner tr.out { opacity: .4; }
+.dnd5e-encounter-planner td input[type=number] { width: 4.5em; text-align: center; }
+.dnd5e-encounter-planner input.overridden { outline: 2px solid #c9a227; }
+.dnd5e-encounter-planner .opts { display: flex; gap: 18px; flex-wrap: wrap; align-items: center; }
+.dnd5e-encounter-planner .opts label { display: flex; align-items: center; gap: 6px; }
+.dnd5e-encounter-planner .ep-body { flex: 1; display: grid; grid-template-columns: 1fr 330px; gap: 10px; min-height: 0; }
+.dnd5e-encounter-planner .encounters, .dnd5e-encounter-planner .search { overflow-y: auto; min-height: 0; }
+.dnd5e-encounter-planner .search { display: flex; flex-direction: column; gap: 6px; }
+.dnd5e-encounter-planner .filters { display: flex; gap: 6px; }
+.dnd5e-encounter-planner .filters select { flex: 0 0 70px; }
+.dnd5e-encounter-planner .add-to { font-size: 12px; opacity: .8; }
+.dnd5e-encounter-planner ul { list-style: none; margin: 0; padding: 0; }
+.dnd5e-encounter-planner .results li, .dnd5e-encounter-planner .monsters li { display: flex; align-items: center; gap: 6px; padding: 3px 4px; border-radius: 4px; }
+.dnd5e-encounter-planner .results li[data-add] { cursor: pointer; }
+.dnd5e-encounter-planner .results li[data-add]:hover { background: rgba(201, 162, 39, .2); }
+.dnd5e-encounter-planner .name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dnd5e-encounter-planner .source { font-size: 11px; opacity: .6; max-width: 90px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.dnd5e-encounter-planner .cr { font-weight: 600; min-width: 48px; }
+.dnd5e-encounter-planner li.empty { opacity: .6; font-style: italic; justify-content: center; padding: 10px; }
+.dnd5e-encounter-planner .encounter { border: 1px solid rgba(128,128,128,.4); border-radius: 6px; padding: 6px 8px; margin-bottom: 8px; }
+.dnd5e-encounter-planner .encounter.active { border-color: #c9a227; box-shadow: 0 0 0 1px #c9a227; }
+.dnd5e-encounter-planner .encounter header, .dnd5e-encounter-planner .encounter footer { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.dnd5e-encounter-planner .encounter header button, .dnd5e-encounter-planner .qty button, .dnd5e-encounter-planner button.icon { flex: 0 0 auto; width: 24px; height: 24px; padding: 0; }
+.dnd5e-encounter-planner .enc-name { flex: 0 1 220px; font-weight: 600; }
+.dnd5e-encounter-planner .spacer { flex: 1; }
+.dnd5e-encounter-planner .qty { display: flex; align-items: center; gap: 4px; }
+.dnd5e-encounter-planner .qty b { min-width: 1.5em; text-align: center; }
+.dnd5e-encounter-planner .diff { padding: 1px 6px; border-radius: 10px; font-size: 12px; font-weight: 600; color: #fff; background: #777; }
+.dnd5e-encounter-planner .diff.low { background: #3c7d3c; } .dnd5e-encounter-planner .diff.moderate { background: #b08a1e; }
+.dnd5e-encounter-planner .diff.high { background: #c0562b; } .dnd5e-encounter-planner .diff.beyond { background: #8b1e1e; }
+.dnd5e-encounter-planner .result-row { margin: 4px 0; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.dnd5e-encounter-planner .risk { padding: 1px 8px; border-radius: 4px; font-weight: 700; color: #fff; }
+.dnd5e-encounter-planner .green, .dnd5e-encounter-planner .bar.green .fill { background: #3c7d3c; }
+.dnd5e-encounter-planner .yellow, .dnd5e-encounter-planner .bar.yellow .fill { background: #b08a1e; }
+.dnd5e-encounter-planner .red, .dnd5e-encounter-planner .bar.red .fill { background: #c0562b; }
+.dnd5e-encounter-planner .dead, .dnd5e-encounter-planner .bar.dead .fill { background: #5a0f0f; }
+.dnd5e-encounter-planner .risk.grey { background: #888; }
+.dnd5e-encounter-planner .detail { opacity: .85; }
+.dnd5e-encounter-planner .repeat { font-size: 12px; }
+.dnd5e-encounter-planner .day { display: flex; gap: 12px; align-items: center; margin-bottom: 8px; padding: 6px; background: rgba(0,0,0,.08); border-radius: 6px; }
+.dnd5e-encounter-planner .bars { display: flex; gap: 3px; height: 48px; align-items: flex-end; }
+.dnd5e-encounter-planner .bar { position: relative; width: 22px; height: 100%; background: rgba(128,128,128,.25); border-radius: 3px; display: flex; align-items: flex-end; }
+.dnd5e-encounter-planner .bar .fill { width: 100%; border-radius: 3px; }
+.dnd5e-encounter-planner .bar span { position: absolute; top: 2px; width: 100%; text-align: center; font-size: 10px; }
+.dnd5e-encounter-planner .actions { display: flex; gap: 8px; }
+.dnd5e-encounter-planner-open { flex: 0 0 100%; }
+#dnd5e-encounter-planner-sources .ep-sources { display: flex; flex-direction: column; gap: 4px; max-height: 420px; overflow-y: auto; margin: 8px 0; }
+#dnd5e-encounter-planner-sources .ep-source { display: flex; align-items: center; gap: 6px; }
+#dnd5e-encounter-planner-sources .ep-source small { opacity: .6; margin-left: auto; }
